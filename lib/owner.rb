@@ -6,11 +6,12 @@ class Owner
   
   def initialize(name)
     @name = name 
+    @species = species
     @pets={fishes: [], cats: [], dogs: []}
   end  
   
   def species
-    @species = species
+    @species 
   end   
   
   def buy_cat(name)
