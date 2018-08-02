@@ -28,10 +28,16 @@ class Owner
     @@all.count
   end   
   
+  def buy_fish(name)
+    name = Fish.new(name)
+    @pets[fishes] << name 
+    Fish.name == self
+  end   
+  
   def buy_cat(name)
     name = Cat.new(name) 
     @pets[cats] << name 
-    name.Cat == self 
+    Cat.name == self 
   end   
     
   def self.reset_all 
