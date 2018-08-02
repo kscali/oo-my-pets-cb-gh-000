@@ -19,9 +19,19 @@ class Owner
     @species 
   end   
   
+  def say_species(specie)
+    "I am a #{specie}."
+  end   
+    
+  
+  def self.count
+    @@all.count?
+  end   
+  
   def buy_cat(name)
     name = Cat.new 
     @pets[cats] << name 
+    name.Cat == self 
   end   
     
   def self.reset_all 
