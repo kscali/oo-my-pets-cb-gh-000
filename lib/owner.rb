@@ -16,7 +16,7 @@ class Owner
   end   
   
   def species(specie)
-    specie = Specie.new 
+    specie = Species.new 
     @species = specie
   end   
   
