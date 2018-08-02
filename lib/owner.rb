@@ -15,8 +15,9 @@ class Owner
     @@all 
   end   
   
-  def species
-    @species 
+  def species(specie)
+    specie = Specie.new 
+    @species = specie
   end   
   
   def say_species
