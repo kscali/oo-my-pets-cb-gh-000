@@ -39,6 +39,12 @@ class Owner
     @pets[cats] << name 
     Cat.name == self 
   end   
+  
+  def buy_dog(name)
+    name = Dog.new(name) 
+    @pets[Dogs] << name 
+    Dog.name == self 
+  end  
     
   def self.reset_all 
     @@all.clear
