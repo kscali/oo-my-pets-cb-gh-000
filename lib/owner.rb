@@ -68,7 +68,8 @@ class Owner
     pets.each do |type, pet|
       if type.each do |animal|
         animal = "nervous"
-      else 
+      elsif pet.empty?
+        true 
         
      end       
     end   
