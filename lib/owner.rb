@@ -12,4 +12,10 @@ class Owner
   def species
     @species = species
   end   
+  
+  def buy_cat(name)
+    name = Cat.new 
+    @pets[cats] << name 
+  end   
+    
 end
