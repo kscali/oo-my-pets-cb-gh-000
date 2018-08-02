@@ -25,7 +25,7 @@ class Owner
     
   
   def self.count
-    @@all.count?
+    @@all.count
   end   
   
   def buy_cat(name)
