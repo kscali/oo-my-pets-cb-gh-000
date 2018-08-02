@@ -34,14 +34,12 @@ class Owner
   
   def buy_cat(name)
     name = Cat.new(name) 
-    @pets[cats] << name 
-    Cat.name == self 
+    @pets[:cats] << name 
   end   
   
   def buy_dog(name)
     name = Dog.new(name) 
-    @pets[Dogs] << name 
-    Dog.name == self 
+    @pets[:dogs] << name 
   end  
     
   def self.reset_all 
