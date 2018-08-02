@@ -15,12 +15,12 @@ class Owner
     @@all 
   end   
   
-  def species
-    @species 
+  def species=(specie)
+    @species = specie
   end   
   
   def say_species
-    "I am a #{@specie}."
+    "I am a #{@species}."
   end   
     
   
