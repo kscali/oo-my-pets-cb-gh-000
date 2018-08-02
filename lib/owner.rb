@@ -29,7 +29,7 @@ class Owner
   end   
   
   def buy_cat(name)
-    name = Cat.new 
+    name = Cat.new(name) 
     @pets[cats] << name 
     name.Cat == self 
   end   
