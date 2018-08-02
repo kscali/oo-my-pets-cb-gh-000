@@ -50,8 +50,8 @@ class Owner
     @@all.clear
   end  
   
-  def walk_dogs 
-    dog.mood = "happy"
+  def walk_dogs(name) 
+    name.mood = "happy"
   end   
     
 end
