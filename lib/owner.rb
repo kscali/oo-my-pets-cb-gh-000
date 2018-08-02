@@ -70,7 +70,7 @@ class Owner
       else   
         type.each do |animal|
         animal = "nervous"
-        
+       end  
      end       
     end   
   end   
