@@ -72,5 +72,11 @@ class Owner
        pet.clear
     end   
   end   
+  
+  def list_pets 
+    fish = pets[:fishes].count 
+    dog = pets[:dogs].count 
+    cat = pets[:cats].count 
+    "I have #{fish} fish, #{dog} dog(s), a"
     
 end
