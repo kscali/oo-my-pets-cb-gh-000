@@ -66,12 +66,9 @@ class Owner
   
   def sell_pets 
     pets.each do |type, pet|
-      if pet.empty?
-      else   
-        type.each do |animal|
+        pet.each do |animal|
         animal = "nervous"
        end  
-     end       
     end   
   end   
     
