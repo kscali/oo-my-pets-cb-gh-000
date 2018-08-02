@@ -16,7 +16,7 @@ class Owner
   end   
   
   def species
-    @species 
+    @species = specie
   end   
   
   def say_species
