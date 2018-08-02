@@ -30,7 +30,7 @@ class Owner
   
   def buy_fish(name)
     name = Fish.new(name)
-    @pets[fishes].push(name) 
+    @pets[fishes] << name 
     Fish.name == self
   end   
   
@@ -43,4 +43,9 @@ class Owner
   def self.reset_all 
     @@all.clear
   end  
+  
+  def walk_dog 
+    dog.name.mood = "happy"
+  end   
+    
 end
