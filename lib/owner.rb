@@ -24,7 +24,7 @@ class Owner
     
   
   def self.count
-    @@all.count
+    @@owners.count
   end   
   
   def buy_fish(name)
